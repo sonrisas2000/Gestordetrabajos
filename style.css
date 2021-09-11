@@ -1,0 +1,168 @@
+*{
+    --bg--color:#514747;
+    --primary--color: rgb(146, 138, 138);
+    --color-withe: rgb(255, 255, 255);
+    --txt--color:#221f1f;
+    --primary--font: 1.8rem ;
+}
+
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    color: var(--txt--color);
+    padding: 10px;
+    background-color: var(--bg--color);
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header p{
+    margin-top: 0;
+    color: var(--primary--color);
+}
+
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .container-title{
+    display: flex;
+    grid-column: 1/2;
+    position: relative;
+}
+.container .container-title .title{
+    background-color: var(--color--bg);
+    padding-left: 6px;
+}
+.container-title input{
+    background: none;
+    border: none;
+    border-bottom: solid 2px #fff0;
+    width: 100%;
+}
+.container-title  input::placeholder{
+    border: none;
+}
+.box-title{
+    background-color: rgb(146, 138, 138);
+    border-radius: 0 10px 0 0;
+    padding: 10px;
+    width: 22%;
+}
+.container-title input{
+    margin: 0;
+    margin-left: 10px;
+    color: var(--color-withe);
+}
+.grid-empresa{
+    background-color: var(--primary--color);
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-weight: 300;
+    gap: 20px;
+    padding: 10px;
+}
+.bg{
+    grid-row: 2 / 3;
+    background-color: var(--primary--color);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 10px 0 0;
+}
+.bg p{
+    margin-top: 0;
+}
+.box{
+    padding: 10px;
+}
+.container-tintes{
+    grid-column: 1 / 3;
+    width: 80%;
+}
+
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  font-weight: 300;
+  gap: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr;
+    height: 100%;
+    width: 100%;
+}
+.container p{
+    font-weight: 400;
+}
+.container-title label{
+    display: flex;
+    position: absolute;
+    top: 12px;
+}
+.container .container-title {
+    width: 32%;
+}
+.box-numberTintes{
+    display: flex;
+}
+.box .container-tintes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.box .container-tintes > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.box .container-tintes .box-tintes{
+    display: flex;
+    justify-content: space-around;
+}
+.box .container-tintes .box-tintes > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box .container-tintes > div p{
+    margin: 0;
+}
+.box .container-tintes > div .box-numberTintes{
+    display: flex;
+    align-items: center;
+}
+.box .container-tintes > div .box-numberTintes input{
+    width: 100px;
+
+}
+.box-tintes .tintes-labels{
+    display: flex;
+    flex-direction: column;
+}
+.box-tintes .tintes-labels .tintes-text{
+    width: 80px;
+}
+.container-cubierta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.container-cubierta label{
+    display: flex;
+    align-items: center;
+}

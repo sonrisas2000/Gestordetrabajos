@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Trabajos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Normalize.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="./logo.png" alt="logo">
+            <p>GESTOR DE TRABAJOS</p>
+        </div>
+        <div>
+            <div class="container-title">
+                <div class="box-title"><label for="">EMPRESA<input type="text"></label></div>
+
+            </div>
+            <div class="grid-empresa">
+
+                <label for="">Contacto</label>
+                <input placeholder="Juan Salas" type="text">
+
+
+                <label for="">Telefono</label>
+                <input placeholder="601 601 601" type="text">
+
+
+                <label for="">E-mail</label>
+                <input placeholder="Gmail@gmail.com" type="text">
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container-title">
+                <div class="box-title"><label for="">TRABAJO<input type="text"></label></div>
+
+            </div>
+            <div class="bg">
+                <div class="box">
+                    <p>Interior</p>
+                    <div class="grid-container">
+
+                        <label for="">Tamaño</label>
+                        <input placeholder="148 x 210cm" type="text">
+
+
+                        <div class="box">
+                            <p>TINTES</p>
+                            <div class="container-tintes">
+                                <label for="">
+                                    <input type="checkbox">
+                                    CMYK
+                                </label>
+                                <label for=""> <input type="checkbox">
+                                    Pant.
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Cubierta</p>
+                    <div class="grid-container">
+
+                        <label for="">Tamaño</label>
+                        <input placeholder="140 x 180cm" type="text">
+
+
+                        <div class="container-tintes">
+                            <div>
+                                <p>TINTES</p>
+                                <div class="box-numberTintes">
+                                    <input type="text">
+                                    +
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="box-tintes">
+                                <div>
+                                    <h3>Anv.</h3>
+                                    <div class="tintes-labels">
+                                        <label for="">
+                                            <input type="checkbox">
+                                            CMYK
+                                        </label>
+                                        <label for=""> 
+                                            Pant.
+                                            <input class="tintes-text" required minlength="1" maxlength="4"   type="text">
+                                            
+                                        </label>
+                                        <label for="">
+                                            Pant.
+                                            <input class="tintes-text" required minlength="1" maxlength="4"   type="text">
+                                            
+                                        </label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3>Rev.</h3>
+                                    <div class="tintes-labels">
+                                        <label for="">
+                                            <input type="checkbox">
+                                            CMYK
+                                        </label>
+                                        <label for=""> 
+                                            Pant.
+                                            <input class="tintes-text" required minlength="1" maxlength="4"  type="text">
+                                        </label>
+                                        <label for="">
+                                            Pant.
+                                            <input class="tintes-text" required minlength="1" maxlength="4"  type="text">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-cubierta">
+                        <label for=""><input type="checkbox">Solapas</label>
+                        <label for=""><input type="checkbox">Tapa dura</label>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>Sobrecubierta</p>
+                    <div class="grid-container">
+
+                        <label for="">Tamaño</label>
+                        <input placeholder="140 x 180cm" type="text">
+
+
+                        <div class="container-tintes">
+                            <div>
+                                <p>TINTES</p>
+                                <div class="box-numberTintes">
+                                    <input type="text">
+                                    +
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="box-tintes">
+                                <div>
+                                    <h3>Anv.</h3>
+                                    <div class="tintes-labels">
+                                        <label for="">
+                                            <input type="checkbox">
+                                            CMYK
+                                        </label>
+                                        <label for="">
+                                            Pant.
+                                            <input class="tintes-text" required minlength="1" maxlength="4"  type="text">
+                                        </label>
+                                        <label for="">
+                                            Pant.
+                                            <input class="tintes-text" required minlength="1" maxlength="4"   type="text">
+                                        </label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3>Rev.</h3>
+                                    <div class="tintes-labels">
+                                        <label for="">
+                                            <input type="checkbox">
+                                            CMYK
+                                        </label>
+                                        <label for="">
+                                            Pant.
+                                            <input class="tintes-text" required minlength="1" maxlength="4"  type="text">
+                                        </label>
+                                        <label for="">
+                                            Pant.
+                                            <input class="tintes-text" required minlength="1" maxlength="4" type="text">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
